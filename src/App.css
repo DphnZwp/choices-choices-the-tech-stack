@@ -297,7 +297,7 @@ main {
 }
 
 .create-story__illustration-link {
-  cursor: unset;
+  cursor: pointer;
 }
 
 .create-story__illustration {
@@ -326,6 +326,36 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.story-detail {
+  margin-right: 10em;
+  margin-left: 10em;
+}
+
+.story-detail__hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.story-detail__content {
+  margin-top: 2em;
+  margin-bottom: 5em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3em;
+  align-items: center;
+}
+
+.story-detail__content img {
+  width: 100%;
+  height: auto;
+}
+
+img {
+  width: 100%;
+  display: block;
 }
 
 .story__title-background {

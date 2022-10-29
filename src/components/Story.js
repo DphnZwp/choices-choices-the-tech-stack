@@ -7,7 +7,9 @@ const GET_STORY = gql`
     stories {
       id
       title
-      image
+      content {
+        html
+      }
     }
   }
 `;
@@ -20,7 +22,14 @@ function Story() {
   if (isLoading) return <section>Loading ...</section>;
   if (error) return <div>Something went wrong ...</div>;
     return(
-      <h1>{data.stories[id - 1].title}</h1>
+      <article className="story-detail">
+        <section className="story-detail__hero">
+          <h1>{data.stories[id - 1].title}</h1>
+        </section>
+
+        <section className="story-detail__content" dangerouslySetInnerHTML={{__html: data.stories[id - 1].content.html}}>
+        </section>
+      </article>
     )
 }
 
