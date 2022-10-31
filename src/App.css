@@ -284,6 +284,12 @@ main {
   animation: up-down 1.25s infinite;
 }
 
+#book:hover {
+  transition: transform .5s ease-in-out;
+  transform: translateY(-.5em);
+  cursor: pointer;
+}
+
 @keyframes up-down {
   0% {
     transform: translateY(0);
