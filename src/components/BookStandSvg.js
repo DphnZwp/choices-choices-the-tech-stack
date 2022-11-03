@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 26.5.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Laag_1" 
-	xmlns:v="https://vecta.io/nano"
+import React from "react";
+
+const BookStandSvg = () => (
+    <svg version="1.1" id="Laag_1"
 	 xmlns="http://www.w3.org/2000/svg" 
-	 xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 xmlnsXlink="http://www.w3.org/1999/xlink"
+     width="100%"
+     height="auto"
 	 viewBox="0 0 228.8 429.3">
-<style type="text/css">
-	.st0{fill:#B9833B;}
-	.st1{fill:#CB9B5B;}
-	.st2{fill:#E3E4DE;}
-	.st3{fill:none;stroke:#AFB49F;stroke-linecap:round;stroke-linejoin:round;}
-</style>
 <path class="st0" d="M154.1,380.7c6.5-2.7,13.1-5.3,19.9-7.9l20.7-7.8c-0.1-1.3-0.1-2.7-0.1-4.2c0-1.4,0-2.7,0.1-4l-25.9-17.3
 	c-2.4,1.4-6.5,3.4-12,4c-8.5,0.9-15-2.2-17.5-3.6c-0.7,0.3-1.9,0.5-2.6,0.9l-3.1,1.3l1.9,4.3l-43.7-7.8
 	c-3.8,7.8-10.3,18.3-19.8,27.5c-11.8,11.4-23.7,16.8-30.2,19.7c-5.1,2.3-9.5,3.8-12.8,4.9l-0.5,9.6l23.1,19.6l54.6-21.1
@@ -60,8 +56,13 @@
 <path class="st0" d="M160.8,116.7c-0.2-0.3-1.5-2.4-3.8-2.5c-2.7-0.1-4.8,2.7-5.3,5.1c-0.1,0.3-0.9,4.2,1.7,5.9
 	c2.1,1.3,4.9,0.3,6.4-1.2C161.7,122.1,162.1,118.9,160.8,116.7L160.8,116.7L160.8,116.7z"/>
 <path class="st1" d="M7.3,32.9l2.5,80.3l75.5,39.6V121C85.3,121,7.3,32.9,7.3,32.9z"/>
+<g id="book">
 <path class="st2" d="M97.1,24.8c-2-1.6-5.5-3.9-10.2-4.7c-7.5-1.2-14.1,2.6-23.3,7c-7.2,3.5-10.3,5.6-18.4,8.6
 	c-2.9,1.1-5.4,1.9-7,2.4l46.3,52c0,0,3.7-3.4,10.1-4.7L193.4,66c-32.6-32.8-45.1-44.3-46.4-44.2c0,0-0.9,0.1-2.2,0.1
 	c0,0-1.1,0-2.3-0.1c-4.1-0.3-27.2-8.6-39.6-2.1C101.5,20.5,99.3,21.9,97.1,24.8L97.1,24.8z"/>
 <path class="st3" d="M97,24.6L145.2,75"/>
+</g>
 </svg>
+)
+
+export default BookStandSvg

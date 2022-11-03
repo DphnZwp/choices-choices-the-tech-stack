@@ -1,3 +1,5 @@
+import BookStandSvg from "./BookStandSvg";
+
 function Create() {
     return(
       <section className="create-story">
@@ -8,7 +10,7 @@ function Create() {
           <path d="M7 32.1382L31 57.2765L55 32.1382" stroke="white" strokeWidth="14" strokeLinecap="round" strokeLinejoin="round"/>
         </svg>
         <a className="create-story__illustration-link" href="/create-story">
-          <img className="create-story__illustration" src="/book-stand.svg" alt=""/>
+          <BookStandSvg />
         </a>
       </section>
     )

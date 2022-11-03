@@ -290,6 +290,25 @@ main {
   cursor: pointer;
 }
 
+.st0 {
+  fill:#B9833B;
+}
+
+.st1 {
+  fill:#CB9B5B;
+}
+
+.st2 {
+  fill:#E3E4DE;
+}
+
+.st3 {
+  fill:none;
+  stroke:#AFB49F;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+}
+
 @keyframes up-down {
   0% {
     transform: translateY(0);
@@ -303,7 +322,7 @@ main {
 }
 
 .create-story__illustration-link {
-  cursor: pointer;
+  cursor: default;
 }
 
 .create-story__illustration {
