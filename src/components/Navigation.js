@@ -19,7 +19,7 @@ return(
       <img className="header__logo" src="/logo.svg" alt=""/>
     </a>
     <button className="header__menu" onClick={openNav}>
-      <svg className="header__menu-icon" aria-hidden="true" focusable="false" width="108" height="64" viewBox="0 0 108 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg className={`header__menu-icon${toggleNameCheck}`}aria-hidden="true" focusable="false" width="108" height="64" viewBox="0 0 108 64" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect className="header__menu-line-top" width="108" height="14" rx="7" fill="white"/>
         <rect className="header__menu-line-middle" y="25" width="108" height="14" rx="7" fill="white"/>
         <rect className="header__menu-line-bottom" y="50" width="108" height="14" rx="7" fill="white"/>

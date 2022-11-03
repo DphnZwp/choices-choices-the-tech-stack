@@ -177,6 +177,22 @@ main {
   width: 5em;
 }
 
+.header__menu-icon-active {
+  height: 5.625em;
+}
+
+.header__menu-icon-active .header__menu-line-top {
+  transform: translate(20px, -8px) rotate(45deg);
+}
+
+.header__menu-icon-active .header__menu-line-middle {
+  opacity: 0;
+}
+
+.header__menu-icon-active .header__menu-line-bottom {
+  transform: translate(-24.5px, 32px) rotate(-45deg);
+}
+
 .header__nav {
   padding-top: 10em;
   padding-right: 3em;
