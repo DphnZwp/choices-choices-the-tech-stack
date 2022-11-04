@@ -20,9 +20,9 @@ return(
     </a>
     <button className="header__menu" onClick={openNav}>
       <svg className={`header__menu-icon${toggleNameCheck}`}aria-hidden="true" focusable="false" width="100%" height="100%" viewBox="0 0 108 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect className="header__menu-line-top" width="100%" height="10" rx="7" fill="white"/>
-        <rect className="header__menu-line-middle" y="22" width="100%" height="10" rx="7" fill="white"/>
-        <rect className="header__menu-line-bottom" y="43" width="100%" height="10" rx="7" fill="white"/>
+        <rect className="header__menu-line-top" width="100%" height="14" rx="7" fill="white"/>
+        <rect className="header__menu-line-middle" y="25" width="100%" height="14" rx="7" fill="white"/>
+        <rect className="header__menu-line-bottom" y="50" width="100%" height="14" rx="7" fill="white"/>
       </svg>
       Menu  
     </button>

@@ -181,7 +181,7 @@ main {
 }
 
 .header__menu-icon-active .header__menu-line-top {
-  transform: translate(15px, -5.5px) rotate(40deg)
+  transform: translate(15px, -7.5px) rotate(40deg)
 }
 
 .header__menu-icon-active .header__menu-line-middle {
@@ -189,7 +189,7 @@ main {
 }
 
 .header__menu-icon-active .header__menu-line-bottom {
-  transform: translate(-21.5px, 30px) rotate(-40deg);
+  transform: translate(-28.5px, 23px) rotate(-40deg);
 }
 
 .header__nav {
