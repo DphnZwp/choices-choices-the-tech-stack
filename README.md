@@ -7,7 +7,7 @@ De stories pagina van Ilojo Bar gemaakt met React om te testen of dat beter is d
 
 [🌐 https://lose-your-head-the-client-case-bice.vercel.app/](https://lose-your-head-the-client-case-bice.vercel.app/)
 
-![screencapture-127-0-0-1-5173-2022-10-14-11_54_54](https://user-images.githubusercontent.com/69635977/195827530-bbf84351-31c8-4c44-9e75-a8f2e48e64c6.png)
+![screencapture-localhost-3000-2022-11-04-11_50_28](https://user-images.githubusercontent.com/69635977/199955535-c6dda6d4-fe9e-44dc-aa39-6985913e3e21.png)
 
 ## Inhoudsopgave
 
