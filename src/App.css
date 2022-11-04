@@ -171,18 +171,17 @@ main {
   gap: .25em;
   z-index: 3;
   cursor: pointer;
+  width: 90px;
 }
 
 .header__menu-icon {
-  width: 5em;
-}
-
-.header__menu-icon-active {
-  height: 5.625em;
+  right: 0;
+  margin-left: auto;
+  margin-right: 0;
 }
 
 .header__menu-icon-active .header__menu-line-top {
-  transform: translate(20px, -8px) rotate(45deg);
+  transform: translate(15px, -5.5px) rotate(40deg)
 }
 
 .header__menu-icon-active .header__menu-line-middle {
@@ -190,7 +189,7 @@ main {
 }
 
 .header__menu-icon-active .header__menu-line-bottom {
-  transform: translate(-24.5px, 32px) rotate(-45deg);
+  transform: translate(-21.5px, 30px) rotate(-40deg);
 }
 
 .header__nav {
