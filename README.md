@@ -3,7 +3,7 @@ Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uit
 De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 # 🍸 Ilojo Bar stories
-De stories pagina van Ilojo Bar gemaakt met React om te testen of dat beter is dan Sveltekit.
+De stories pagina van Ilojo Bar gemaakt met React en Hygraph om te testen of dat beter is dan Sveltekit en Prismic.
 
 [🌐 https://lose-your-head-the-client-case-bice.vercel.app/](https://lose-your-head-the-client-case-bice.vercel.app/)
 
